@@ -16,5 +16,6 @@ public class Xpaths {
 	driver.get("https://www.leafground.com/checkbox.xhtml");
     WebElement python = driver.findElement(By.xpath("(//label[contains(text(),'th')])[1]"));
 	python.click();
+		
 }
 }
